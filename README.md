@@ -98,7 +98,7 @@ app = Flask(__name__)
 
 ### Decorator (`@app.route`)
 ```python
-@app.route('/issue', methods=['POST'])
+@app.route('/createissue', methods=['POST'])
 def createJira():
     ...
 ```
